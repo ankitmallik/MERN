@@ -8,7 +8,7 @@
 //Number
 //Undefined
 
-let person = 'ankit';
+// let person = 'ankit';
 // const person1 = 'pratyush';
 // person1 = 45;
 // var person3 = 'anshu';
@@ -21,4 +21,11 @@ let person = 'ankit';
 // namee = 'anshu';
 
 
+const btn = document.querySelector('button');
+btn.addEventListener('click',newMsg);
+function newMsg()
+{
+    let text = prompt('');
+    btn.textContent = 'hi' + text;
+}
 
